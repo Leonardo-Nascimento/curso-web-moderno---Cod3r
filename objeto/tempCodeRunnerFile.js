@@ -1,9 +1,2 @@
-
-function novo(f, ...params){
-    const obj = {}
-    obj.__proto__ = f.prototype
-    f.apply(obj, params)
-    return obj
-}
-
-const aula3 = novo(Aula, 'Bem vindo', 789)
+const fromJSON = JSON.parse('{"info": "Sou um JSON"}');
+console.log(fromJSON);

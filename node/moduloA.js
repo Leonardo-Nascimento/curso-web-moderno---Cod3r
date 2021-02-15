@@ -7,7 +7,7 @@ exports.bemVindo = 'Bem vindo ao node!'
 
 module.exports.ateLogo = 'Até próximo exemplo'
 
-//foram criadas  de formas diferentes 3 propriedades no objeto this
+//foram criadas de formas diferentes 3 propriedades no objeto this
 
 /*
 {
