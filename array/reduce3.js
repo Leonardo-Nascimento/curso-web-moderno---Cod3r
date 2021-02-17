@@ -10,7 +10,7 @@ Array.prototype.reduce2 = function(callback, valorInicial){
 const soma = (total, valor) => total + valor
 const nums = [1, 2, 3, 4, 5, 6]
 
-console.log(nums.reduce2(soma, 21))
+console.log(nums.reduce2(soma, 0))
 
 // const alunos = [
 //     {aluno: 'João', nota: 7.3, bolsista: false},
