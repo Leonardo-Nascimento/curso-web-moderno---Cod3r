@@ -1,2 +1,3 @@
-const fromJSON = JSON.parse('{"info": "Sou um JSON"}');
-console.log(fromJSON);
+const obj1 = {}
+
+console.log(obj1)
