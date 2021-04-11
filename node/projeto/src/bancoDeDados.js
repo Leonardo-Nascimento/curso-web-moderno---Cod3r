@@ -5,6 +5,8 @@ const sequence = {
 
 const produtos = {}
 
+
+
 function salvarProduto(produto){
     if (!produto.id) produto.id = sequence.id;
         
@@ -20,4 +22,13 @@ function getProdutos(){
     return Object.values(produtos);
 }
 
-module.exports = {salvarProduto, getProduto, getProdutos}
+function excluirProduto(id){
+    const produto = produtos[id]
+    delete produtos[id]
+    return {
+        status: "sucesso",
+        message: `o produto ${produto.id} foi removido!`
+    }
+}
+
+module.exports = {salvarProduto, getProduto, getProdutos, excluirProduto}
