@@ -1,7 +1,6 @@
 //Usando promises
 
 const http = require('http');
-const { reject, concat } = require('lodash');
 
 const getTurma = (letra) => {
     const url = `http://files.cod3r.com.br/curso-js/turma${letra}.json`;
