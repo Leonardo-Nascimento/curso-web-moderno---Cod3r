@@ -78,3 +78,9 @@ console.log(produtos2)
 console.log(despesasTotais(produtos1)) // retornará 239.99
     
 console.log(despesasTotais(produtos2))   // retornará 34599.89
+
+
+
+const produtos3 = [{nome: "Galaxy S20", categoria: "Eletrônicos", preco: 3599.99}, {nome: "Macbook Pro", categoria: "Eletrônicos", preco: 30999.90}]
+
+produtos3.forEach(produtos => {console.log(produtos.nome + '-' + produtos.preco) })
