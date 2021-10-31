@@ -2,13 +2,13 @@ import ReactDOM from 'react-dom';
 //import Primeiro from './componentes/Primeiro'
 import BomDia from './componentes/BomDia'
 import Multi, {BoaNoite} from './componentes/Multiplos'
+import Saudacao from './componentes/Saudacao'
 
 
 
 ReactDOM.render(
 <div>
-    <Multi.BoaTarde nome="Leo"/>
-    <BoaNoite nome="Bia"/>
+    <Saudacao tipo="Bom Dia" nome="Leo"/>
 </div>
 
 ,document.getElementById('root'));
